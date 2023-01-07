@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+/* Header */
+
+header {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    text-align: right;
+    padding-right: 230px;
+
+
+
+}
+
+/* Banner Content */
+
+.banner-content h2 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    text-align: right;
+    padding-bottom: 24px;
+
+}
+
+.banner-content p {
+    font-size: 16px;
+    color: #444343;
+    padding-bottom: 32px;
+}
+
+.primary-btn {
+    padding: 16px 20px;
+    background: rgba(255, 68, 0, 0.904);
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 22px;
+    border: none;
+}
+
+.primary-btn:hover {
+    padding: 20px 24px;
+    background: rgb(255, 68, 0);
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
+    border: none;
+}
+
+.failure-container {
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 131px;
+    padding-bottom: 130px;
+
+
+
+}
+
+.my-failures-section {
+    padding-right: 250px;
+    padding-top: 100px;
+    
+}
+
+.my-failures-section h3 {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 24px;
+
+}
+
+.my-failures-section p {
+    color: #444343;
+    font-size: 19px;
+    padding-bottom: 16px;
+}
+
+.my-failures-section ul {
+    list-style: none;
+    width: 340px 163px;
+    font-size: 17px;
+}
+
+/* I got it Form Stackoverflow https://stackoverflow.com/questions/34141950/how-to-use-tick-checkmark-symbol-instead-of-bullets-in-unordered-list */
+
+.my-failures-section ul li:before {
+    content: '✓';
+    padding: 9px;
+    color: rgba(118, 187, 15, 0.993);
+}
+
+/* My Plan Section */
+
+
+
+
+.my-plan{
+    display: flex;
+    gap: 100px;
+    padding-left: 34%;
+    padding-bottom: 130px;
+    
+    
+}
+
+.plan-container h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan{
+    text-align: center;
+    
+}
+
+.plan h4{
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 6px; 
+}
+
+/* image section */
+
+/* refrence:  https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode */
+
+.img-section{
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 29vh;
+    background-size: contain;
+    background-blend-mode: multiply;
+    margin-bottom: 130px;
+    border-radius: 8px;
+}
+
+.img-content{
+    margin:0 600px;
+    padding-top: 100px ;
+    
+    
+}
+
+.img-content h2{
+    font-weight: 900;
+    font-size: 50px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    
+}
+
+.call-now-btn{
+    padding: 16px 20px;
+    background: #fffffffd;
+    border-radius: 5px;
+    color: rgba(255, 68, 0, 0.904);;
+    font-weight: 700;
+    font-size: 22px;
+    border: none;  
+}
+
+.call-now-btn:hover{
+    padding: 20px 24px;
+    background: #ffffffaf; 
+    border-radius: 8px;
+    color: rgba(255, 68, 0, 0.904);
+    font-weight: 800;
+    font-size: 25px;
+    border: none;
+}
+
+/* footer Section */
+
+footer{
+    background: #151414;
+    background-size: cover;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-left{
+    color: white;
+    margin: 130px 430px;
+    margin-left: 125px;
+    justify-items: left;
+    
+    
+}
+
+.footer-right
+.footer-left,  h3{
+  font-weight: 700;
+  font-size: 45px; 
+  padding-bottom: 16px; 
+}
+
+.footer-left p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 24px ;
+}
+
+.footer-right{
+    color: white;
+    margin: 130px 180px;
+    margin-left: 125px;
+    justify-items: center;
+}
+
+.footer-right input{
+    padding: 10px 50px;
+    margin-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
